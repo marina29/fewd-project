@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+	<title>Top Stories</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/simple-grid.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+
+<body>
+	<div class="container">	
+		<header class= "grid">
+			<div class="col-1-2">
+				<h1>Top News</h1>
+				<h4>Where to find all your top news stories!</h4>
+			</div>
+
+			<nav class="col-1-2">
+				<a href="#">About</a>
+				<a href="#">Finance Stories</a>
+				<a href="#">Contact</a>
+			</nav>
+		</header>
+		
+		<section class="col-1-1">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+				<ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			  	</ol>
+
+			  <!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+				    <div class="item active">
+				    	<img src="img/1.jpg" alt="">
+				    	<div class="carousel-caption">
+				    	</div>
+			    	</div>
+				    <div class="item">
+				    	<img src="img/2.jpg" alt="">
+				    	<div class="carousel-caption">
+				    	</div>
+				    </div>
+			      	<div class="item">
+				    	<img src="img/3.jpg" alt="">
+				    	<div class="carousel-caption">
+			      		</div>
+			      	</div>
+			      	<div class="item">
+				    	<img src="img/4.jpg" alt="">
+				    	<div class="carousel-caption">
+				    	</div>
+			      	</div>
+			    </div>
+
+				  <!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			    	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    	<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</section>
+
+		<section class="col-1-1">
+			<p>Looking for a the top news stories from the New York Times? Ask where you can grab the <span class="underline">News</span></p>
+			<p>Click the search button below</p>
+			<button>Top 5 News Stories</button>
+
+			<article>
+				<p id="first">Story #1</p>
+				<p id="author1"></p>
+				<img class="photo" src="">
+	  		</article>
+	  		<article>
+				<p id="second">Story #2</p>
+				<p id="author2"></p>
+				<img class="photo" src="">
+	  		</article>
+	  		<article>
+				<p id="third">Story #3</p>
+				<p id="author3"></p>
+				<img class="photo" src="">
+	  		</article>
+	  		<article>
+				<p id="forth">Story #4</p>
+				<p id="author4"></p>
+				<img class="photo" src="">
+	  		</article>
+	  		<article>
+				<p id="fifth">Story #5</p>
+				<p id="author5"></p>
+				<img class="photo" src="">
+	  		</article>
+
+		</section>
+		<footer>
+			<small class="col-1-2">
+				<div class="footer">©2016 Fituated, Inc.
+				</div>
+			</small>
+			<div class="col-1-2">
+          		<a href="#" class="footer">Home</a>
+          		<a href="#" class="footer">Get Fituated</a>
+          		<a href="#" class="footer">Contact Us</a>
+        	</div>
+		</footer>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="http://api.nytimes.com/svc/topstories/v1/business.json?api-key=b6b9abf034a44842aafe3607a6870eb7"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/project.js"></script>
+</body>
+
+</html>

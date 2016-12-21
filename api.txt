@@ -1,0 +1,14 @@
+AIzaSyClMxizfwSOQpFZhm0kidVHuknWgaebMPQ
+
+https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyClMxizfwSOQpFZhm0kidVHuknWgaebMPQ&location=40.712784,-74.005941&radius=5000&type=gym
+
+// ["Marina", "Lisa","Mike"].forEach(function(name) {
+	console.log(name)
+})
+
+
+
+
+// var name = data["results"].forEach(function(name) {
+  // 			console.log(name);
+		// 	});

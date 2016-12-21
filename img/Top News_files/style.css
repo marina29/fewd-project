@@ -1,0 +1,92 @@
+#carousel-example-generic {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.container {
+	margin-left: 20px;
+}
+
+header .grid {
+	position: relative;
+}
+
+header {
+	border-bottom: 1px solid grey;
+	height: 100px;
+}
+
+nav {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	text-align: right;
+	margin: 30px 15px 0 0;
+}
+
+nav a {
+	text-decoration: none;
+	padding-right: 25px;
+	color: rgb(129,216,208);
+	font-family: 'georgia', sans-serif;
+	text-shadow: 0px 1px 1px #aaa;
+	font-size:15px;
+}
+
+h1 {
+	font-family: 'Antique Olive Bold', sans-serif;
+	font-size: 40px;
+	color: rgb(129,216,208);
+	margin: 15px 0 10px 0;
+	text-shadow: 2px 2px 2px #aaa;
+}
+
+h4 {
+	font-family: 'Chaparral', serif;
+	font-size: 18px;
+	margin:0;
+	text-shadow: 0px 1px 1px #aaa;
+}
+
+section {
+	height: 280px;
+	margin-left: 65px;
+	padding-top:10px;
+	display: block;
+	font-size:12px;
+}
+
+footer {
+	margin-left:35px;
+}
+
+footer div {
+	text-align:right;
+}
+
+.footer {
+	text-align: right;
+	text-decoration: none;
+	color: rgb(129,216,208);
+	font-size: 12px;
+    border-right: 1px solid grey;
+    padding: 0 6px 0 5px;
+}
+
+.footer:last-child {
+    border: 0;
+}
+
+div .item {
+	width: 800px;
+	height:250px;
+	margin: 0 auto;
+}
+
+img {
+ width: 700px;
+}
+
+.underline {
+	text-decoration:underline;
+}
