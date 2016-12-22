@@ -13,7 +13,7 @@ header .grid {
 }
 
 header {
-	border-bottom: 1px solid grey;
+	border-bottom: 3px solid black;
 	height: 100px;
 	margin: 0;
 }
@@ -115,4 +115,11 @@ button {
 
 .middle {
 	text-align:center;
+}
+
+
+.about {
+	text-align: center;
+	font-style: italic;
+	font-size: 13px;
 }
