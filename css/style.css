@@ -48,10 +48,12 @@ p {
 
 footer {
 	margin-left: 15px;
+
 }
 
 footer div {
 	text-align: right;
+	margin-top:70px;
 }
 
 .footer {
