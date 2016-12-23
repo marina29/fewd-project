@@ -45,16 +45,16 @@ $("button").on("click", function() {
 
 				console.log(result["results"][0]["multimedia"][0]["url"]);
 
-				var photo1 = result["results"][0]["multimedia"][0]["url"];
+				var photo1 = result["results"][0]["multimedia"][0] && result["results"][0]["multimedia"][0]["url"];
 				$("img#photo1").attr("src", photo1);
-				var photo2 = result["results"][1]["multimedia"][0]["url"];
+				var photo2 = result["results"][1]["multimedia"][0] && result["results"][1]["multimedia"][0]["url"];
 				$("img#photo2").attr("src", photo2);
-				var photo4 = result["results"][3]["multimedia"][0]["url"];
-				$("img#photo4").attr("src", photo4);
-				var photo5 = result["results"][4]["multimedia"][0]["url"];
-				$("img#photo5").attr("src", photo5);
-				var photo3 = result["results"][2]["multimedia"][0]["url"];
+				var photo3 = result["results"][2]["multimedia"][0] && result["results"][2]["multimedia"][0]["url"];
 				$("img#photo3").attr("src", photo3);
+				var photo4 = result["results"][3]["multimedia"][0] && result["results"][3]["multimedia"][0]["url"];
+				$("img#photo4").attr("src", photo4);
+				var photo5 = result["results"][4]["multimedia"][0] && result["results"][4]["multimedia"][0]["url"];
+				$("img#photo5").attr("src", photo5);
 				
 
 				
